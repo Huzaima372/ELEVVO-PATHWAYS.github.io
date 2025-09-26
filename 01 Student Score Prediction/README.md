@@ -16,9 +16,13 @@
 This project applies **Machine Learning** techniques to predict **student exam scores** based on academic, socio-economic, and behavioral factors.
 
 The workflow includes:
+
 ✔️ Data Preprocessing (handling missing values, encoding, scaling)
+
 ✔️ Exploratory Data Analysis (EDA)
+
 ✔️ Model Training (Linear Regression, Polynomial Regression)
+
 ✔️ Model Evaluation & Comparison
 
 ---
