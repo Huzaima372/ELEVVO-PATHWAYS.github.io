@@ -16,8 +16,11 @@
 This project builds a **Movie Recommendation System** using the **MovieLens dataset**. It applies **Collaborative Filtering** approaches to suggest movies to users:
 
 ✔️ **User-Based Collaborative Filtering** – recommends movies based on ratings from similar users.
+
 ✔️ **Item-Based Collaborative Filtering** – recommends movies based on similarity between movies a user has already rated.
+
 ✔️ **Evaluation** – recommendations are validated using **Precision@K**.
+
 ✔️ **Visualization** – distribution of ratings & most popular movies.
 
 ---
@@ -127,5 +130,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn kagglehub
 
 * [MovieLens Ratings Dataset – Kaggle](https://www.kaggle.com/datasets/mukeshmanral/movielens-rating-dataset)
 * [Scikit-learn Documentation](https://scikit-learn.org/)
+
 
 ---
