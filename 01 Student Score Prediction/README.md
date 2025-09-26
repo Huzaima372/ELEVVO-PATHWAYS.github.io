@@ -1,7 +1,7 @@
 
 ---
 
-# 🎓 Student Exam Score Prediction – Week 01
+# 🎓 Student Exam Score Prediction – TASK 01
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange.svg)](https://scikit-learn.org/)
