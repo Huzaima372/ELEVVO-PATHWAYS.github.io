@@ -17,10 +17,15 @@
 This project applies **Machine Learning and Time Series Analysis** to predict **weekly Walmart sales**.
 
 The workflow includes:
+
 ✔️ Data Cleaning & Preprocessing (handling missing values, encoding, feature engineering)
+
 ✔️ Exploratory Data Analysis (EDA)
+
 ✔️ Baseline Model (Linear Regression)
+
 ✔️ Advanced Model (XGBoost Regressor)
+
 ✔️ Model Evaluation & Comparison
 
 ---
