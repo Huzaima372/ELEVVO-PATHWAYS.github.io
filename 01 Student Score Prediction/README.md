@@ -1,6 +1,3 @@
-Got it 👍 — you want a **dedicated README file just for the Student Exam Score Prediction project** (similar in style to the Heart Disease README you showed).
-
-Here’s a polished **README.md** for the Student Marks Prediction project:
 
 ---
 
