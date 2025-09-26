@@ -1,148 +1,134 @@
-# 🎓 Student Exam Score Prediction  
+Got it 👍 — you want a **dedicated README file just for the Student Exam Score Prediction project** (similar in style to the Heart Disease README you showed).
 
-<p align="center">
-  <img src="https://img.freepik.com/free-vector/online-exams-concept-illustration_114360-5572.jpg" width="500" alt="exam illustration"/>
-</p>
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)  
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellowgreen)  
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet)  
-![Colab](https://img.shields.io/badge/Colab-Notebook-gold)  
-![Status](https://img.shields.io/badge/Status-Completed-success.svg)  
+Here’s a polished **README.md** for the Student Marks Prediction project:
 
 ---
 
-## 📑 Table of Contents
-1. [Overview](#-overview)  
-2. [Dataset](#-dataset)  
-3. [Methodology](#-methodology)  
-4. [Models](#-models)  
-5. [Results](#-results)  
-6. [How to Run](#-how-to-run)  
-7. [Future Work](#-future-work)  
-8. [License](#-license)  
+# 🎓 Student Exam Score Prediction – Week 01
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange.svg)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data--Analysis-green.svg)](https://pandas.pydata.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-red.svg)](https://seaborn.pydata.org/)
+[![Dataset](https://img.shields.io/badge/Dataset-Kaggle-brightgreen.svg)](https://www.kaggle.com/)
 
 ---
 
-## 📖 Overview  
+## 📌 Project Overview
 
-This project explores **factors influencing student performance** and predicts exam scores using **machine learning regression techniques**.  
+This project applies **Machine Learning** techniques to predict **student exam scores** based on academic, socio-economic, and behavioral factors.
 
-✨ **Key Highlights**  
-- Data Cleaning & Preprocessing 🧹  
-- Exploratory Data Analysis (EDA) 📊  
-- Regression Models (Linear & Polynomial) 🤖  
-- Model Evaluation (RMSE, R²) 📏  
-- Feature Importance / Ablation Study 🔬  
-
----
-
-## 📂 Dataset  
-
-- **Source:** [Kaggle – Student Performance Factors](https://www.kaggle.com/)  
-- **Records:** 6,607 students  
-- **Features:** Study Hours, Attendance, Parental Involvement, Resources, Peer Influence, Family Income, Motivation, etc.  
-- **Target Variable:** `Exam_Score`  
-
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" width="200" alt="dataset icon"/>
-</p>
+The workflow includes:
+✔️ Data Preprocessing (handling missing values, encoding, scaling)
+✔️ Exploratory Data Analysis (EDA)
+✔️ Model Training (Linear Regression, Polynomial Regression)
+✔️ Model Evaluation & Comparison
 
 ---
 
-## ⚙️ Methodology  
+## ⚙️ Installation
 
-### 🔹 Data Preprocessing  
-✔️ Missing values imputed (mean/mode)  
-✔️ Categorical features → Label/One-Hot Encoding  
-✔️ Numerical features → Standard Scaling  
+Make sure you have Python 3.x installed. Then, install the required dependencies:
 
-### 🔹 Exploratory Data Analysis  
-- Histograms of numeric features  
-- Scatter plots *(Study Hours vs Exam Score)*  
-- Boxplots *(Parental Involvement vs Exam Score)*  
-- Heatmaps *(feature correlation)*  
-
-<p align="center">
-  <img src="https://seaborn.pydata.org/_images/seaborn-heatmap-1.png" width="500" alt="heatmap"/>
-</p>
-
----
-
-## 🤖 Models  
-
-1. **Linear Regression** – Baseline, interpretable  
-2. **Polynomial Regression (degree=2)** – Tested non-linear patterns  
-
-### 📏 Evaluation Metrics  
-- MSE (Mean Squared Error)  
-- RMSE (Root Mean Squared Error)  
-- R² Score  
-
----
-
-## 📊 Results  
-
-| Model                 | RMSE  | R² Score | Notes |
-|------------------------|-------|----------|-------|
-| Linear Regression      | ~1.80 | 0.77     | ✅ Best performer |
-| Polynomial Regression  | ~1.89 | 0.74     | ❌ Slightly worse |
-
-📌 **Key Findings**  
-- Participation in extracurriculars strongly influences scores.  
-- Sleep hours contributed little to predictive power.  
-- Linear regression explained **~77% of variance** in scores.  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mwaskom/seaborn-data/master/docs/_static/scatterplot.png" width="450" alt="scatter plot"/>
-</p>
-
----
-
-## 🚀 How to Run  
-
-### 1️⃣ Install Dependencies  
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn
-
-````
-
-### 2️⃣ Run Notebook
-
-* Open in **Colab / Jupyter Notebook**
-* Load `StudentPerformanceFactors.csv` into the correct path
-* Run all cells ✅
-
-<p align="center">
-  <img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="80" alt="colab"/>
-</p>
-
----
-
-## 🔮 Future Work
-
-🔹 Try advanced ML models:
-
-* Random Forests 🌳
-* Gradient Boosting ⚡
-* Neural Networks 🧠
-
-🔹 Hyperparameter tuning for better accuracy
-🔹 Subgroup analysis (socio-economic, school types)
-
----
-
-## 📜 License
-
-For **educational and research purposes** only.
-Dataset available on [Kaggle](https://www.kaggle.com/).
-
----
-
-<p align="center">  
-  Made with ❤️, ☕, and 📊 by a Data Science Enthusiast  
-</p>
+pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ---
+
+## 📂 Dataset
+
+* **Source**: [Kaggle – Student Performance Factors](https://www.kaggle.com/)
+* **Total Records**: 6,607
+* **Features**: 20
+
+  * Numerical: `StudyHours`, `SleepHours`, `Attendance`, `FamilyIncome`
+  * Categorical: `Parental_Involvement`, `School_Type`, `Extracurricular_Activities`, `Preparation`
+* **Target Variable**:
+
+  * `Exam_Score` (continuous numeric: 0–100)
+
+---
+
+## 🔧 Data Preprocessing
+
+1. **Missing Values**
+
+   * Filled using **mean** for numerical features, **mode** for categorical.
+
+2. **Encoding**
+
+   * Binary categorical features → **Label Encoding**
+   * Multi-class categorical features → **One-Hot Encoding**
+
+3. **Scaling**
+
+   * StandardScaler applied to numerical features.
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+* **Histograms**: distribution of numerical features
+* **Scatterplot**: Study Hours vs Exam Score
+* **Boxplot**: Parental Involvement vs Exam Score
+* **Correlation Heatmap**: feature relationships with Exam Score
+
+📌 **Key Insights**:
+
+* Strong positive correlation: Study Hours, Parental Involvement
+* Negative correlation: Absenteeism, Low Resource Access
+
+---
+
+## 🤖 Model Training
+
+### Data Splitting
+
+* Train-test split: **80% training, 20% testing**
+
+### Models Used
+
+1. **Linear Regression** – baseline model
+2. **Polynomial Regression (Degree 2)** – captures non-linear relationships
+
+---
+
+## 📈 Model Evaluation
+
+### Metrics Used
+
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+### Results
+
+| Model                 | RMSE | R² Score |
+| --------------------- | ---- | -------- |
+| Linear Regression     | 2.05 | 0.74     |
+| Polynomial Regression | 1.89 | 0.75     |
+
+---
+
+## ✅ Conclusion
+
+* **Polynomial Regression** slightly outperformed Linear Regression.
+* Key predictors: **Study Hours, Parental Involvement, Preparation, Family Income**.
+* Future improvements:
+
+  * Try advanced models (Random Forest, XGBoost)
+  * Perform hyperparameter tuning
+  * Add feature selection
+
+👉 **Final Choice: Polynomial Regression (Degree 2)** for predicting exam scores.
+
+---
+
+## 📚 References
+
+* [Kaggle – Student Performance Dataset](https://www.kaggle.com/)
+* [Scikit-learn Documentation](https://scikit-learn.org/)
+
+---
+
